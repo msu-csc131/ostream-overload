@@ -1,3 +1,11 @@
 # Overloading the stream insertion operator
 
 This repo contains some techniques for overloading the stream insertion operator to provide a direct way to "print" objects on the standard output console.
+
+## Friend functions
+
+Friend functions can be used to provide a function direct access to private data of a class. The benefit here is convenience, however, at the expense of breaking encapsulation to a small degree.
+
+## Using a public method to use with the operator overload
+
+Alternatively, and preferably in my humble opinion, one can add a public method to the class we wish to insert into an `ostream` that takes a reference to the `ostream`. In being a method of the class, this method has direct access to private data. The benefit here is that we don't break encapsulation of private data.
