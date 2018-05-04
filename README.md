@@ -4,7 +4,7 @@ This repo contains some techniques for overloading the stream insertion operator
 
 ## Friend functions
 
-Friend functions can be used to provide a function direct access to private data of a class. The benefit here is convenience, however, at the expense of breaking encapsulation to a small degree.
+Friend functions can be used to provide a function direct access to private data of a class. The benefit here is convenience, however, at the expense of breaking encapsulation to a small degree. See [http://en.cppreference.com/w/cpp/language/friend](http://en.cppreference.com/w/cpp/language/friend)
 
 ## Using a public method to use with the operator overload
 
